@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./estilo.css" rel="stylesheet" />
+  <title>Medidor de Agua</title>
+</head>
+
+<body>
+  <script type="module" src="./index.js"></script>
+
+
+  
+  
+
+
+  <!--=======================BLUR 1=======================-->
+  
+    <div class="Blur">
+      <svg width="825" height="825" viewBox="0 0 825 825" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_f_50_2)">
+          <circle cx="412.5" cy="412.5" r="142.5" fill="#42a7e0;" />
+        </g>
+        <defs>
+          <filter id="filter0_f_50_2" x="0" y="0" width="825" height="825" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="135" result="effect1_foregroundBlur_50_2" />
+          </filter>
+        </defs>
+      </svg>
+    </div>
+
+    <div id="Circulo" class="Circulo">   
+      <h6 id="Pivote"></h6>
+      <h2 id="Agua">Agua</h2>
+      <div id="Onda" class="Onda"></div>
+    </div>
+
+    <div id="AdvBox" class="AdvBox">   
+    <h5 id="Advertencia">Advertencia</h5>
+  </div>
+    <!--=======================BLUR 2=======================-->
+
+      <div class="Blur2">
+        <svg width="825" height="825" viewBox="0 0 825 825" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_f_50_2)">
+            <circle cx="412.5" cy="412.5" r="142.5" fill="#00A3FF" />
+          </g>
+          <defs>
+            <filter id="filter0_f_50_2" x="0" y="0" width="825" height="825" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="135" result="effect1_foregroundBlur_50_2" />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+
+      
+
+
+      <!--=======================MENU LATERAL=======================-->
+      <nav class="navbar">
+        
+        <div class="MenuIcono"><img src="cerrar.svg" id="MenuIcono" /><img /></div>
+        <div class="Menu active" id="Menu">
+         
+          <ul id="MenuLat">
+            <li>Home</li>
+            <li><a href="https://github.com/LordShadow505" target="_blank rel=" noopener noreferrer">Contacto</a></li>
+            <!--<div class="GraficaBox" id="GraficaBox"><canvas id="Grafica" width="200" height="200"></canvas></div>-->
+            <div id="GraficaBox" style="height:250px; width: 250px"></div>
+            <h3 id="Creditos">App by LordShadow505</h3>
+            <h4 id="Nivel">Nivel de Agua:</h4>
+            <div class="Raven"><img class="Raven" src="ravenB.png" /><img /></div>
+            <!=======================OSCURO=======================>
+              <div id="Boton">
+                <div class="toggle">
+                  <img class="Darkmode" src="darkmode.svg" /><img />
+                </div>
+              </div>
+          </ul>
+        </div>
+      </nav>
+
+
+
+        <!--=======================GLASSMORPH=======================-->
+
+          <div class="card">
+            <h1 id="TituloAPP">WaterApp</h1>
+            
+          </div>
+          
+          <script src="https://code.highcharts.com/stock/highstock.js"></script>
+          <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+          <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+          <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+          
+          
+</body>
+
+</html>
